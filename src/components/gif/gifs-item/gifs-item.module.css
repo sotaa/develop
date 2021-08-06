@@ -1,0 +1,10 @@
+.gifCard {
+  width: 100%;
+  margin: 0 0 10px;
+  overflow: hidden;
+  break-inside: avoid;
+}
+
+.gifCard img {
+  max-width: 100%;
+}

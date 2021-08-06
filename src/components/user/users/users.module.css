@@ -1,0 +1,23 @@
+.tableStyle {
+  background: rgb(236, 236, 236);
+  border-radius: 1em;
+  overflow: hidden;
+}
+
+.trStyle {
+  border-spacing: 15px;
+  cursor: pointer;
+}
+
+.usernameStyle {
+  color: #5765dd;
+  margin-left: 20px;
+}
+
+.deleteItem {
+  width: 10%;
+}
+
+.listCaptionStyle {
+  line-height: 2.8;
+}

@@ -1,0 +1,19 @@
+.taskTitle {
+  line-height: 2.2;
+  cursor: pointer;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.doneCheckbox {
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 50% !important;
+}
+
+.deleteTask {
+  font-size: 22px;
+  margin-top: 2px;
+  cursor: pointer;
+}
