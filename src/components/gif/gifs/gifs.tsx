@@ -28,7 +28,6 @@ export function Gifs() {
       const result = await getApiService().fetchGifs(limit, offset);
       setGifs((state) => [...state, ...result.data]);
     } catch (error) {
-      // TODO: Need to handle error
       console.log(error);
     }
     setLoading(false);
@@ -52,7 +51,6 @@ export function Gifs() {
         );
         setGifs((state) => [...result.data]);
       } catch (error) {
-        // TODO: Need to handle error
         console.log(error);
       }
       setLoading(false);
